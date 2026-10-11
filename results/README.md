@@ -1,17 +1,31 @@
 # Zahma — Model Results
 
-This section presents visual outputs and evaluation plots from the YOLOv11s person-detection model.
+## 1. Person Detection Results
 
-## Detection Results
-Example predictions showing detected people with bounding boxes and confidence scores.
+The following image shows the YOLOv11s model detecting people using bounding boxes and confidence scores.
 
-## Model Evaluation
-- Confusion Matrix
-- Precision-Confidence Curve
-- Recall-Confidence Curve
-- F1-Confidence Curve
+![Person Detection Results](val_batch0_pred.jpg)
+
+## 2. Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+## 3. Model Evaluation Curves
+
+### F1-Confidence Curve
+
+![F1 Curve](F1_curve.png)
+
+### Precision-Confidence Curve
+
+![Precision Curve](P_curve.png)
+
+### Recall-Confidence Curve
+
+![Recall Curve](R_curve.png)
 
 ## Notes
-These visualizations are experimental results. Performance should be interpreted alongside the dataset, evaluation settings, and known limitations.
 
-**Privacy:** Only publish images that you have permission to share.
+These figures present experimental person-detection outputs and model evaluation results. Performance should be interpreted in the context of the dataset and evaluation settings.
+
+Only share images and data that you have permission to publish.
